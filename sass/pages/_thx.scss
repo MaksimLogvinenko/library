@@ -1,0 +1,36 @@
+.thx-wrapper-1{
+    width:100%;
+    height:100vh;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: $color-primary;
+}
+.thx-wrapper-2{
+    position: absolute;
+    border-radius: 5px;
+      background-color: $color-light-gray;
+    padding :3rem;
+    width: 90rem;
+    text-align:center;
+    top: 40%;
+    @include respond(phone) {
+        width: 100%;
+    }
+  }
+ .thx__title{
+    font-family: 'Kaushan Script', cursive;
+    font-size:6.8rem;
+    letter-spacing:3px;
+    color:$color-primary ;
+    margin:0;
+    margin-bottom:2rem;
+  }
+  .thx__subtitle{
+    font-size:1.8rem;
+    color:#aaa;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
+    margin-bottom: 2rem;
+  }

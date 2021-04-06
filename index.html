@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Nunito:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.ico">
+
+    <title>Бібліотека | Читайте та слухайте за однією підпискою</title>
+</head>
+
+<body>
+    <!-- SCROLL TO TOP -->
+    <div class="scroll-to-top">
+        <a href="#header"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+
+    <!-- MODAL WINDOW -->
+    <div class="modal">
+        <div class="modal-background">
+            <div class="modal-window">
+                <div class="modal__close">
+                    <i class="far fa-times-circle"></i>
+                </div>
+                <h1 class="modal__author">
+                    Author
+                </h1>
+                <p class="modal__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aspernatur
+                    nesciunt fuga repellendus laudantium error atque rem possimus tempora facere eos, architecto ipsa
+                    dolores dicta, incidunt delectus! Ipsam, alias? Voluptates fuga, eos ut tempora distinctio
+                    perspiciatis vero quis? Autem optio totam vitae perferendis! Accusamus, possimus, quidem culpa
+                    expedita aspernatur maxime magni quam incidunt, delectus repellat officiis sequi omnis nemo
+                    repudiandae. Voluptatum, id tempora? Eos temporibus amet nisi repudiandae, aliquam excepturi ducimus
+                    dignissimos quisquam officia officiis nulla magni esse debitis placeat atque architecto ut, odio sit
+                    fugiat sunt possimus sapiente! Quo iusto earum deleniti quos voluptas ipsam cumque aut enim saepe!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <header id="header" class="header">
+        <div class="navbar-mobile" data-aos="fade-down" data-aos-delay="300">
+            <div class="navbar__logo">
+                <img src="img/svg/logo.svg" alt="">
+                Library world
+            </div>
+            <div class="burger">
+                <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="navbar__menu-mobile">
+                <ul>
+                    <li class="menu-mobile__link"><a class="menu-mobile__item" href="#header">Головна</a></li>
+                    <li class="menu-mobile__link"><a class="menu-mobile__item" href="#section-gallery">Галерея</a></li>
+                    <li class="menu-mobile__link"><a class="menu-mobile__item" href="#section-about">Про автора</a></li>
+                    <li class="menu-mobile__link"><a class="menu-mobile__item" href="#section-form">Контакти</a></li>
+                    <a href="#" class="btn btn--accent">Зворотній зв'язок</a>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="navbar" data-aos="fade-down" data-aos-delay="300">
+                <div class="navbar__logo">
+                    <img src="img/svg/logo.svg" alt="">
+                    Library world
+                </div>
+                <div class="navbar__menu">
+                    <ul>
+                        <li class="menu__link"><a class="menu__item" href="#header">Головна</a></li>
+                        <li class="menu__link"><a class="menu__item" href="#section-gallery">Галерея</a></li>
+                        <li class="menu__link"><a class="menu__item" href="#section-about">Про автора</a></li>
+                        <li class="menu__link"><a class="menu__item" href="#section-form">Контакти</a></li>
+                        <a href="#" class="btn btn--accent">Зворотній зв'язок</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__title-wrapper">
+                <h1 class="text-centered header__title" data-aos="zoom-in" data-aos-delay="500">Library world — читайте
+                    та слухайте за однією підпискою</h1>
+                <a href="#section-gallery" class="scroll-down" data-aos="zoom-in" data-aos-delay="500"></a>
+            </div>
+            <div class="location-info">
+                <div class="location" data-aos="fade-right" data-aos-delay="400">
+                    <img src="img/svg/location.svg" alt="">
+                    <a href="#" class="loc__address">Наб. реки Фонтанки 10-15</a>
+                </div>
+                <div class="phone" data-aos="fade-left" data-aos-delay="400">
+                    <img src="img/svg/phone.svg" alt="">
+                    <a href="tel:88121234567" class="loc__phone">8 (812) 123-45-67</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section-gallery" class="section-gallery">
+        <div class="container">
+            <h2 class="text-centered main-title-little" data-aos="zoom-in" data-aos-delay="200">Десятки тисяч безкоштовних книг</h2>
+            <h2 class="text-centered main-title" data-aos="zoom-in" data-aos-delay="200">Переваги нашої бібліотеки</h2>
+        </div>
+        <div class="gallery">
+            <div class="gallery__item" data-aos="fade-left" data-aos-delay="200"
+                style="background-image: url('./img/gallery1.jpg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>287 000 книг</span>
+            </div>
+            <div class="gallery__item" data-aos="fade-right" data-aos-delay="200"
+                style="background-image: url('./img/gallery2.jpg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>+ 2 000 новинок <br> щомісяця</span>
+            </div>
+            <div class="gallery__item" data-aos="fade-left" data-aos-delay="200"
+                style="background-image: url('./img/gallery3.jpg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>Добірки і рекомендації</span>
+            </div>
+            <div class="gallery__item" data-aos="fade-right" data-aos-delay="200"
+                style="background-image: url('./img/gallery4.jpeg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>57 000 аудіокниг</span>
+            </div>
+            <div class="gallery__item" data-aos="fade-left" data-aos-delay="200"
+                style="background-image: url('./img/gallery5.jpg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>Уся колекція <br> у додатку</span>
+            </div>
+            <div class="gallery__item" data-aos="fade-right" data-aos-delay="200"
+                style="background-image: url('./img/gallery6.jpeg'); min-height: 32vh; background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <span>Рекомендуємо <br> хороші книги</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-about" class="section-about">
+        <div class="container">
+            <h2 class="text-centered main-title-little" data-aos="zoom-in" data-aos-delay="200">Дізнайтесь більше про автора улюбленої книги</h2>
+            <h2 class="text-centered main-title" data-aos="zoom-in" data-aos-delay="200">Каталог книг</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" data-aos="flip-left" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book1.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Література по саморозвитку</span>
+                            <h5 class="content__title">"Думай и Богатей"</h5>
+                            <p class="content__subtitle">Думай и богатей - книга американського письменника, журналіста
+                                і психолога Наполеона Хілла. Вперше була опублікована в 1937 році.</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="flip-right" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book2.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Роман</span>
+                            <h5 class="content__title">"Оно"</h5>
+                            <p class="content__subtitle">Оно - роман американського письменника Стівена Кінга, написаний
+                                у жанрі жахів, який вперше був опублікований в 1986 році видавництвом Viking Press.</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="flip-left" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book3.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Фентезі</span>
+                            <h5 class="content__title">"Гарри Поттер и Принц-полукровка"</h5>
+                            <p class="content__subtitle">Шоста книга із серії романів Дж. К. Роулінг про
+                                чарівника-підлітка Гаррі Поттера. У книзі описується шостий рік навчання героїв в
+                                Хогвортсі.</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="flip-right" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book4.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Психология</span>
+                            <h5 class="content__title">"Поток. Психология оптимального переживания"</h5>
+                            <p class="content__subtitle">
+                                Книга «Поток» є дуже нетривіальний підхід до проблем емоційного життя людини і регуляції
+                                поведінки.</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="flip-left" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book5.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Програмування</span>
+                            <h5 class="content__title">"JavaScript. Подробное руководство"</h5>
+                            <p class="content__subtitle">
+                                Розглядаються взаємодію з протоколом HTTP і застосований
+                                ня технології Ajax, обробка XML документів, створення графіки...</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-aos="flip-right" data-aos-delay="200">
+                        <div class="slide-img"><img src="img/book6.jpg" alt=""></div>
+                        <div class="slide-content">
+                            <span class="content__price">Програмування</span>
+                            <h5 class="content__title">"Изучаем Python"</h5>
+                            <p class="content__subtitle">
+                                Це прискорений курс, який дозволить вам заощадити час і відразу почати писати
+                                працездатні програми.</p>
+                            <div class="content-buttons">
+                                <a href="#" class="btn btn--accent btn__open-modal">Про автора</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+    </section>
+
+    <section class="section-form" id="section-form">
+        <div class="container">
+            <h2 class="text-centered main-title-little" data-aos="zoom-in" data-aos-delay="200">Якщо у вас є питання, або побажання</h2>
+            <h2 class="text-centered main-title" data-aos="zoom-in" data-aos-delay="200">Служба підтримки</h2>
+            <div class="form-wrapper" data-aos="flip-down" data-aos-delay="200">
+                <div class="form">
+                    <form action="#" class="form" >
+                        <h1 class="form__title">Задайте нам питання</h1>
+                        <input type="text" placeholder="Введіть своє ім'я" required class="form__input">
+                        <input type="email" placeholder="Введіть свій Email" required class="form__input">
+                        <textarea class="form__input form__textarea" placeholder="Повідомлення" required></textarea>
+                        <button class="btn btn--primary" id="btn__submit">Надіслати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/svg/logo.svg" alt="">
+            </div>
+            <div class="footer-info">
+                <div class="footer__menu">
+                    <li class="footer-menu__link"><a class="footer-menu__item" href="#header">Головна</a></li>
+                    <li class="footer-menu__link"><a class="footer-menu__item" href="#section-gallery">Галерея</a></li>
+                    <li class="footer-menu__link"><a class="footer-menu__item" href="#section-about">Про автора</a></li>
+                    <li class="footer-menu__link"><a class="footer-menu__item" href="#section-form">Контакти</a></li>
+                </div>
+                <div class="footer__author">
+                    <div class="h4 footer__author-title">Built by <span>MAKSYM LOGVYNENKO</span> for his PORTFOLIO.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyr">
+            © 2020 Бібліотека. Всі права захищено.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity .4s ease;
+    a {
+        color: darken($color: #C7A17A, $amount: 10%);
+        
+    }
+    i {
+        font-size: 4.8rem;
+    }
+}
+.scroll-to-top__active {
+    opacity: 1;
+}

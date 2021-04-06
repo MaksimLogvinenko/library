@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: $color-primary;
+    overflow-x: hidden;
+    position: relative;
+}
+section {
+  padding: 8rem 0;
+}
+
+.text-centered {
+  text-align: center;
+}
+.main-title {
+  font-size: 3.4rem;
+  color: $color-primary;
+  padding: 0 2rem;
+  margin-bottom: 7rem;
+  position: relative;
+  z-index: 99;
+}
+
+.main-title-little {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  color: $color-primary;
+  padding: 0 2rem;
+  font-weight: 600;
+  position: relative;
+  z-index: 99;
+}
+
+.container {
+  padding: 0 2rem;
+  max-width: 117rem;
+  width: 100%;
+  margin: 0 auto;
+}
